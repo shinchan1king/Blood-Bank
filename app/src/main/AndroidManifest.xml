@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bloodbank2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/download1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/download1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BloodBank2">
+        <activity android:name=".userProfile"></activity>
+        <activity android:name=".Search_Result" />
+        <activity android:name=".search" />
+        <activity android:name=".Rbb" />
+        <activity android:name=".Ibd" />
+        <activity android:name=".signup" />
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

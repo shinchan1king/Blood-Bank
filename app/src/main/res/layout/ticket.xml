@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_layout"
+    android:layout_margin="1pt"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/tvB_G"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blood Group" />
+
+    <TextView
+        android:id="@+id/tvPhn_Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone No." />
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address" />
+
+</LinearLayout>
