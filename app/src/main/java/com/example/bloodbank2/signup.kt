@@ -24,7 +24,7 @@ class signup : AppCompatActivity() {
         val email = etEmail.text.toString()
         val Password1 = etPassword1.text.toString()
         val Password2 = etPassword2.text.toString()
-        if (Password1 != "") {
+        if (Password1 == "") {
             Toast.makeText(applicationContext, "Please Enter Some Password", Toast.LENGTH_SHORT)
                 .show()
         } else {
